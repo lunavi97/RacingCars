@@ -937,6 +937,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dt: 0
+  ts: 1
 --- !u!1001 &1734909919
 Prefab:
   m_ObjectHideFlags: 0

@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class ClaseTime : MonoBehaviour {
 
-    public float dt;
+    public float dt, ts;
 	void Update () {
-        dt = Time.deltaTime;
+        dt += Time.deltaTime;
+        Time.timeScale = ts;
 	}
 }
